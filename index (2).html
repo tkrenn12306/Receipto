@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receipto — Every receipt. Every warranty. Forever.</title>
+  <meta name="description" content="Snap a photo of any receipt. Receipto extracts the merchant, date, total and warranty period automatically — and reminds you before warranties expire. Year-end tax export in one tap.">
+  <meta name="theme-color" content="#F7F4EF">
+  <meta property="og:title" content="Receipto — Every receipt. Every warranty. Forever.">
+  <meta property="og:description" content="Turn every receipt into a permanent entry in your personal warranty and tax archive.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231A2B47'/%3E%3Cpath d='M10 10v12l3-2 3 2 3-2 3 2V10z' fill='%23B87333'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="logo">
+        <span class="logo-mark"></span>
+        Receipto
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#" class="btn btn-primary">Get on App Store</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="fade-up">
+          <div class="hero-eyebrow eyebrow">Receipt scanner · Warranty tracker · Tax archive</div>
+          <h1>Every receipt.<br>Every warranty.<br><em>Forever.</em></h1>
+          <p class="lede">
+            Snap a photo. Receipto reads the merchant, date, total and warranty period
+            automatically — then quietly waits to remind you before you lose the right
+            to claim a refund.
+          </p>
+          <div class="hero-cta">
+            <a href="#" class="btn btn-money">Download on the App Store</a>
+            <a href="#how" class="btn btn-ghost">See how it works</a>
+          </div>
+          <div class="hero-meta">
+            <span>● Free for 5 receipts</span>
+            <span>● iOS 17+</span>
+            <span>● No account required</span>
+          </div>
+        </div>
+
+        <div class="receipt-stack fade-up delay-2">
+          <div class="receipt receipt-1">
+            <div class="receipt-merchant">Apple Store</div>
+            <div class="receipt-line"><span>MacBook Pro 14"</span><span>2,499.00</span></div>
+            <div class="receipt-line"><span>AppleCare+</span><span>299.00</span></div>
+            <div class="receipt-divider"></div>
+            <div class="receipt-line"><span>Subtotal</span><span>2,798.00</span></div>
+            <div class="receipt-line"><span>VAT 20%</span><span>559.60</span></div>
+            <div class="receipt-total"><span>TOTAL</span><span>€2,798.00</span></div>
+            <div class="receipt-meta">12.03.2026 · Apple Pay · Warranty 36 mo</div>
+          </div>
+
+          <div class="receipt receipt-2">
+            <div class="receipt-merchant">MediaMarkt</div>
+            <div class="receipt-line"><span>Sony WH-1000XM5</span><span>329.00</span></div>
+            <div class="receipt-line"><span>Cable USB-C</span><span>14.99</span></div>
+            <div class="receipt-divider"></div>
+            <div class="receipt-line"><span>Subtotal</span><span>343.99</span></div>
+            <div class="receipt-line"><span>VAT 19%</span><span>54.91</span></div>
+            <div class="receipt-total"><span>TOTAL</span><span>€343.99</span></div>
+            <div class="receipt-meta">04.02.2026 · Card · Warranty 24 mo</div>
+          </div>
+
+          <div class="receipt receipt-3">
+            <div class="receipt-merchant">IKEA</div>
+            <div class="receipt-line"><span>BEKANT desk</span><span>179.00</span></div>
+            <div class="receipt-line"><span>MARKUS chair</span><span>249.00</span></div>
+            <div class="receipt-divider"></div>
+            <div class="receipt-total"><span>TOTAL</span><span>€428.00</span></div>
+            <div class="receipt-meta">19.01.2026 · 24 mo</div>
+          </div>
+
+          <div class="vault-badge">
+            <div class="vault-label">Protected value</div>
+            <div class="vault-amount">€18,453</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-inner">
+        <div class="trust-item">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 3.5 9 8 10 4.5-1 8-5 8-10V6z"/></svg>
+          On-device OCR. Your receipts never leave your phone unencrypted.
+        </div>
+        <div class="trust-item">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Servers in Frankfurt. GDPR-native.
+        </div>
+        <div class="trust-item">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9 12 3l9 6v12H3z"/><path d="M9 21V12h6v9"/></svg>
+          Built in Austria.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="features">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">What it does</div>
+        <h2>The receipt drawer<br>you'll <em>actually open.</em></h2>
+        <p>Receipto is built around a single promise: capture takes 5 seconds, and what you saved is never lost again.</p>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18"/><path d="M7 6V3h10v3"/></svg>
+          </div>
+          <h3>One-tap capture</h3>
+          <p>Open the app — the camera is already focused. Snap, done. The OCR runs on-device while you put your phone away.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20"/><path d="M5 12h14"/><circle cx="12" cy="12" r="9"/></svg>
+          </div>
+          <h3>Smart auto-fill</h3>
+          <p>Merchant, date, total, VAT and category — extracted in seconds. We recognize 200+ retailers across DE, AT and CH.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Warranty reminders</h3>
+          <p>Quiet pings at 90, 30, 14 and 3 days before warranty expiry. So you never lose a refund again because the receipt was gone.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          </div>
+          <h3>Search the unsearchable</h3>
+          <p>Every word on every receipt is indexed. Type "Saturn" or "5,99 milk" — find it instantly, three years later.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"/></svg>
+          </div>
+          <h3>Year-end export</h3>
+          <p>One tap, one PDF for your accountant. Filter by year, category and tax-relevance. CSV and DATEV included for Pro.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M8 2v4M16 2v4M2 10h20"/></svg>
+          </div>
+          <h3>The Year in Receipts</h3>
+          <p>Every January, see your year as a story: top merchant, biggest purchase, hours saved by OCR. Built to share.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">How it works</div>
+        <h2>Three seconds.<br>Three taps. <em>Three years from now.</em></h2>
+        <p>The whole point is that you stop thinking about it. Capture a receipt today, find it again the day you need it.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">i</div>
+          <h3>Snap</h3>
+          <p>The camera opens automatically. Place the receipt in frame — Receipto detects edges, fixes the angle and crops it perfectly.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">ii</div>
+          <h3>Confirm</h3>
+          <p>Auto-extracted fields appear pre-filled. Merchant, date, total, warranty period. Tap save, or correct in two seconds.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">iii</div>
+          <h3>Forget</h3>
+          <p>It's safely in your vault. Receipto wakes up before warranty expires, around tax season, and at year-end with your recap.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="magic-moment">
+    <div class="container">
+      <div class="magic-grid">
+        <div>
+          <div class="eyebrow">The moment it pays for itself</div>
+          <h2>Fourteen months later, your <em>headphones break.</em></h2>
+          <p>
+            Most people give up because the receipt is gone. With Receipto,
+            you search "Sony" in the app, tap the receipt, tap "Claim warranty" —
+            and a pre-filled email with the receipt PDF goes straight to the retailer.
+          </p>
+          <p>
+            That's the moment Receipto pays for itself for the next ten years.
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-amount">€329</div>
+          <div class="label">Refunded last month</div>
+          <p class="testimonial-quote">
+            "My XM5s died after 13 months. I thought the receipt was long gone.
+            Sony refunded the full price within a week."
+          </p>
+          <div class="testimonial-byline">— Lisa S., Vienna</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">Pricing</div>
+        <h2>Free to try.<br>Pro <em>pays for itself</em> in one warranty claim.</h2>
+        <p>No subscription games. No artificial expiries. Cancel anytime.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Free</h3>
+          <div class="price"><span class="currency">€</span>0</div>
+          <div class="period">forever</div>
+          <ul class="features-list">
+            <li>5 receipts (lifetime)</li>
+            <li>Manual entry & camera capture</li>
+            <li>Basic warranty reminder</li>
+            <li>iCloud backup</li>
+          </ul>
+          <a href="#" class="btn btn-ghost">Download free</a>
+        </div>
+
+        <div class="price-card featured">
+          <div class="price-badge">Most popular</div>
+          <h3>Pro Yearly</h3>
+          <div class="price"><span class="currency">€</span>19<span style="font-size:24px">.99</span></div>
+          <div class="period">per year · €1.66/mo · save 58%</div>
+          <ul class="features-list">
+            <li>Unlimited receipts</li>
+            <li>Smart OCR with auto-fill</li>
+            <li>Full reminder suite (90/30/14/3 days)</li>
+            <li>Year-end PDF & CSV export</li>
+            <li>Tags, folders & widgets</li>
+            <li>Live Activities & Lock Screen</li>
+          </ul>
+          <a href="#" class="btn btn-money">Start 7-day free trial</a>
+        </div>
+
+        <div class="price-card">
+          <h3>Lifetime</h3>
+          <div class="price"><span class="currency">€</span>49</div>
+          <div class="period">one-time · launch price</div>
+          <ul class="features-list">
+            <li>Everything in Pro</li>
+            <li>All future updates</li>
+            <li>Priority support</li>
+            <li>Early access to new features</li>
+            <li>Limited launch offer</li>
+          </ul>
+          <a href="#" class="btn btn-ghost">Buy once, keep forever</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">Questions</div>
+        <h2>Things you're <em>probably wondering.</em></h2>
+      </div>
+
+      <div class="faq">
+        <details class="faq-item">
+          <summary>Does Receipto work without internet?</summary>
+          <p>Yes. The OCR runs entirely on your device using Apple's Vision framework. Capture, search and viewing all work offline. Cloud sync between your devices and backup happen when you're online.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What happens to my receipts? Where are they stored?</summary>
+          <p>Receipt photos and data are stored in your private Firebase account on servers in Frankfurt, Germany — fully GDPR-compliant. You can export everything or delete your account at any time. We don't sell, share or analyse your data for advertising.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Which retailers does Receipto recognize?</summary>
+          <p>200+ retailers across Germany, Austria and Switzerland are recognized automatically — including Saturn, MediaMarkt, IKEA, dm, Billa, Spar, Hofer, Migros, Coop, Apple, Hervis and more. For unknown retailers, you enter the merchant name once and we remember it.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Will it work for tax filing as a freelancer?</summary>
+          <p>Yes — Pro lets you tag receipts as tax-relevant, then export everything as a structured PDF + CSV for your accountant at year-end. We support DATEV format too. Many freelancers save 2-3 hours of accountant fees this way.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What if I switch from Android or already use another app?</summary>
+          <p>Receipto is iOS-only for now. If you're switching from another receipt app and have a CSV export, send it to us — we'll help you migrate.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I share receipts with my family?</summary>
+          <p>Family Sharing arrives in V1.1 (mid-2026). Up to 6 family members will share one Pro subscription and shared receipts for big purchases.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How does the free trial work?</summary>
+          <p>7 days free, full Pro access. Cancel anytime in your iPhone Settings before the trial ends and you won't be charged. We don't send you nag emails.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="container">
+      <h2>Start <em>protecting</em> your receipts<br>in the next 60 seconds.</h2>
+      <p>Free to try. iOS 17+. No account required to start.</p>
+      <a href="#" class="btn btn-money">Download on the App Store</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-mark"></span>
+            Receipto
+          </a>
+          <p>Every receipt. Every warranty. Forever. Built in Austria, hosted in Frankfurt.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#how">How it works</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="mailto:legal@receipto.app">Contact legal</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="mailto:hello@receipto.app">Email us</a>
+          <a href="mailto:support@receipto.app">Support</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Receipto. All rights reserved.</span>
+        <span>Made with care in Austria 🇦🇹</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
